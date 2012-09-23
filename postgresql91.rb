@@ -3,7 +3,7 @@ require 'formula'
 class Postgresql91 < Formula
   homepage 'http://www.postgresql.org/'
   url 'http://ftp.postgresql.org/pub/source/v9.1.5/postgresql-9.1.5.tar.bz2'
-  sha1 'ac63c9df95864bcff323ecb83ebcd5a18c462e8d'
+  sha1 '8411f39e7cff8d691d908de7823b72426433faa2'
 
   depends_on 'readline'
   depends_on 'libxml2' if MacOS.version == :leopard
